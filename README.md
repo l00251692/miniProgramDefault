@@ -14,10 +14,10 @@
 注意mysql配置与application.properties文件中相关一致，建表语句见back.sql
 
 三、	小程序与服务器的交互
+
 小程序接口在util.js的fetch函数中对微信接口做了一次封装，所有java服务器端返回的数据要按照这个形式进行：
 小程序端处理
  
-
  
 服务器端按照Map<String, Object>形式返回，小程序可以直接处理返回的data
  
